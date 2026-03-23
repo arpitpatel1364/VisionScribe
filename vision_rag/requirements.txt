@@ -1,0 +1,53 @@
+# ── Core ──────────────────────────────────────────────
+Django==4.2.13
+djangorestframework==3.15.2
+django-cors-headers==4.3.1
+python-decouple==3.8
+
+# ── Document Parsing ──────────────────────────────────
+PyMuPDF==1.24.5           # fitz: fast PDF parsing
+Pillow==10.3.0
+
+# ── Vision / ML ───────────────────────────────────────
+torch==2.3.1
+torchvision==0.18.1
+ultralytics==8.2.48       # YOLO
+transformers==4.42.3      # Hugging Face (BGE-M3, CLIP)
+sentence-transformers==3.0.1
+open-clip-torch==2.24.0   # CLIP embeddings
+
+# ── Vector Store ──────────────────────────────────────
+chromadb==0.5.3
+
+# ── LLM / RAG orchestration ───────────────────────────
+langchain==0.2.6
+langchain-community==0.2.6
+langchain-chroma==0.1.2
+ollama==0.2.1              # local LLM via Ollama HTTP client
+rank-bm25==0.2.2           # BM25 sparse retrieval
+
+# ── Database ──────────────────────────────────────────
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.31
+
+# ── Async / Concurrency ───────────────────────────────
+aiohttp==3.9.5
+aiofiles==23.2.1
+
+# ── Evaluation ────────────────────────────────────────
+ragas==0.1.14
+datasets==2.20.0
+
+# ── Frontend ──────────────────────────────────────────
+streamlit==1.36.0
+plotly==5.22.0
+pandas==2.2.2
+
+# ── Utilities ─────────────────────────────────────────
+python-dotenv==1.0.1
+tqdm==4.66.4
+numpy==1.26.4
+pydantic==2.7.4
+rich==13.7.1
+loguru==0.7.2
+httpx==0.27.0
