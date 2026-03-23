@@ -236,13 +236,3 @@ OLLAMA_BASE_URL: http://172.17.0.1:11434
 ```
 
 Find it with: `ip route | grep docker`
-
----
-
-## Making it GitHub-ready
-
-1. Record a demo GIF (use QuickTime or OBS) showing a chart query being answered
-2. Paste the GIF at the top of README.md: `![VisionScribe Demo](demo.gif)`
-3. Run `python scripts/benchmark_ingestion.py` and paste the table in README
-4. Add your actual RAGAS scores once you've run `python scripts/run_eval.py`
-5. Tag your first release: `git tag v0.1.0 && git push --tags`
