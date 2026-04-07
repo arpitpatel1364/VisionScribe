@@ -1,4 +1,4 @@
-# VisionScribe — Setup Tips & Troubleshooting
+# VisionScribe — Setup Tips & Troubleshooting 
 
 This file covers every common issue you'll hit setting this up for the first time.
 
